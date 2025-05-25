@@ -1,0 +1,35 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp">
+
+    <Button
+        android:id="@+id/refreshedBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="I'm Refreshed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/groggyBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="I'm Groggy"
+        app:layout_constraintTop_toBottomOf="@id/refreshedBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/snoozeBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Snooze"
+        app:layout_constraintTop_toBottomOf="@id/groggyBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
