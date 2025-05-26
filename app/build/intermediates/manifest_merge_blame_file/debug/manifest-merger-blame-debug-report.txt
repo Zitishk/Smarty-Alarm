@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartalarm"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:3:5-81
+11-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:3:22-78
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:4:5-68
+12-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:4:22-65
+13
+14    <application
+14-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:5:5-23:19
+15        android:allowBackup="true"
+15-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/b06de3aaa3ea2f0cc52f5f5d10993a15/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:label="SmartAlarm"
+19-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:7:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+21-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:8:9-65
+22        <activity
+22-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:9:9-14:20
+23            android:name="com.example.smartalarm.MainActivity"
+23-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:9:19-47
+24            android:exported="true" >
+24-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:9:48-71
+25            <intent-filter>
+25-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:10:13-13:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:11:17-69
+26-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:11:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:12:17-77
+28-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:12:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:15:9-75
+32            android:name="com.example.smartalarm.AlarmActivity"
+32-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:15:19-48
+33            android:exported="true" />
+33-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:15:49-72
+34
+35        <service
+35-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:16:9-74
+36            android:name="com.example.smartalarm.AlarmService"
+36-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:16:18-46
+37            android:exported="false" />
+37-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:16:47-71
+38
+39        <receiver
+39-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:17:9-75
+40            android:name="com.example.smartalarm.AlarmReceiver"
+40-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:17:19-48
+41            android:exported="true" />
+41-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:17:49-72
+42        <receiver
+42-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:18:9-22:20
+43            android:name="com.example.smartalarm.BootReceiver"
+43-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:18:19-47
+44            android:exported="true" >
+44-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:18:48-71
+45            <intent-filter>
+45-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:19:13-21:29
+46                <action android:name="android.intent.action.BOOT_COMPLETED" />
+46-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:20:17-79
+46-->/Users/kshitizudainiya/Desktop/SmartAlarm/app/src/main/AndroidManifest.xml:20:25-76
+47            </intent-filter>
+48        </receiver>
+49
+50        <service
+50-->[androidx.room:room-runtime:2.4.2] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/39e8be7647df36c4ef39c15f11a4d086/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+51            android:name="androidx.room.MultiInstanceInvalidationService"
+51-->[androidx.room:room-runtime:2.4.2] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/39e8be7647df36c4ef39c15f11a4d086/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+52            android:directBootAware="true"
+52-->[androidx.room:room-runtime:2.4.2] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/39e8be7647df36c4ef39c15f11a4d086/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+53            android:exported="false" />
+53-->[androidx.room:room-runtime:2.4.2] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/39e8be7647df36c4ef39c15f11a4d086/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/367cdeff0fbbd828a05ee1a0059842be/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/367cdeff0fbbd828a05ee1a0059842be/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+57            android:authorities="com.example.smartalarm.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/367cdeff0fbbd828a05ee1a0059842be/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/367cdeff0fbbd828a05ee1a0059842be/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/367cdeff0fbbd828a05ee1a0059842be/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/367cdeff0fbbd828a05ee1a0059842be/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/367cdeff0fbbd828a05ee1a0059842be/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/ea8c2a96cb5b300e35c87ccb9c1c8f0a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/ea8c2a96cb5b300e35c87ccb9c1c8f0a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kshitizudainiya/.gradle/caches/8.12/transforms/ea8c2a96cb5b300e35c87ccb9c1c8f0a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

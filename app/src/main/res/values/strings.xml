@@ -1,13 +1,16 @@
-<!-- src/main/res/values/strings.xml -->
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SmartAlarm</string>
-    <string name="hd_hint">Hard Deadline (HH:mm)</string>
-    <string name="pw_hint">Preferred Wake (HH:mm, optional)</string>
-    <string name="eb_hint">Estimated Bedtime (HH:mm)</string>
+    <string name="app_name">Smart Alarm</string>
     <string name="set_alarm">Set Alarm</string>
-    <string name="alarm_scheduled">Alarm scheduled for %1$s</string>
-    <string name="invalid_time">Invalid time: %1$s</string>
-    <string name="im_refreshed">I'm Refreshed</string>
-    <string name="im_groggy">I'm Groggy</string>
-    <string name="snooze">Snooze</string>
+    <string name="label_hard_deadline">Hard Deadline</string>
+    <string name="label_pref_wake">Preferred Wake</string>
+    <string name="label_est_bedtime">Estimated Bedtime</string>
+    <string name="label_priority">Wake Priority</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_med">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="alarm_ringing">Alarm ringing...</string>
+    <string name="btn_refreshed">I’m refreshed</string>
+    <string name="btn_groggy">I’m groggy</string>
+    <string name="btn_snooze">Snooze</string>
 </resources>

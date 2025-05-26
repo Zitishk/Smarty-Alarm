@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.smartalarm.app-mergeDebugResources-21:/layout/activity_alarm.xml",
+        "source": "com.example.smartalarm.app-main-24:/layout/activity_alarm.xml"
+    },
+    {
+        "merged": "com.example.smartalarm.app-mergeDebugResources-21:/layout/activity_main.xml",
+        "source": "com.example.smartalarm.app-main-24:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.smartalarm.app-mergeDebugResources-21:/layout/boot_receiver.xml",
+        "source": "com.example.smartalarm.app-main-24:/layout/boot_receiver.xml"
+    }
+]

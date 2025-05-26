@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="priority_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string name="alarm_ringing">Alarm ringing...</string>
+    <string name="app_name">Smart Alarm</string>
+    <string name="btn_groggy">I’m groggy</string>
+    <string name="btn_refreshed">I’m refreshed</string>
+    <string name="btn_snooze">Snooze</string>
+    <string name="label_est_bedtime">Estimated Bedtime</string>
+    <string name="label_hard_deadline">Hard Deadline</string>
+    <string name="label_pref_wake">Preferred Wake</string>
+    <string name="label_priority">Wake Priority</string>
+    <string name="priority_high">High</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_med">Medium</string>
+    <string name="set_alarm">Set Alarm</string>
+</resources>

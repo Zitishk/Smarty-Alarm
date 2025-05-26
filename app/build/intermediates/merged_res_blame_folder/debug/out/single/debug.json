@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.smartalarm.app-merged_res-22:/drawable_ic_alarm.xml.flat",
+        "source": "com.example.smartalarm.app-main-24:/drawable/ic_alarm.xml"
+    },
+    {
+        "merged": "com.example.smartalarm.app-merged_res-22:/layout_activity_main.xml.flat",
+        "source": "com.example.smartalarm.app-main-24:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.smartalarm.app-merged_res-22:/layout_boot_receiver.xml.flat",
+        "source": "com.example.smartalarm.app-main-24:/layout/boot_receiver.xml"
+    },
+    {
+        "merged": "com.example.smartalarm.app-merged_res-22:/layout_activity_alarm.xml.flat",
+        "source": "com.example.smartalarm.app-main-24:/layout/activity_alarm.xml"
+    }
+]

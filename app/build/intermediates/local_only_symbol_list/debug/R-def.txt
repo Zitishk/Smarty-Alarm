@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+array priority_levels
+drawable ic_alarm
+id ebInput
+id groggyBtn
+id hdInput
+id prioritySpinner
+id pwInput
+id refreshedBtn
+id setupButton
+id snoozeBtn
+layout activity_alarm
+layout activity_main
+layout boot_receiver
+string alarm_ringing
+string app_name
+string btn_groggy
+string btn_refreshed
+string btn_snooze
+string label_est_bedtime
+string label_hard_deadline
+string label_pref_wake
+string label_priority
+string priority_high
+string priority_low
+string priority_med
+string set_alarm
